@@ -5,7 +5,7 @@ pipeline {
         AWS_ACCOUNT_ID = "339713037256"
         REGION = "ap-south-1"
         ECR_URL = "${AWS_ACCOUNT_ID}.dkr.ecr.${REGION}.amazonaws.com"
-        IMAGE_NAME = "desainiranjan8/tour-ms:tour-ms-v.1.${env.BUILD_NUMBER}"
+        IMAGE_NAME = "vijaydevops2024/tour-ms:tour-ms-v.1.${env.BUILD_NUMBER}"
         ECR_IMAGE_NAME = "${AWS_ACCOUNT_ID}.dkr.ecr.${REGION}.amazonaws.com/tour-ms:tour-ms-v.1.${env.BUILD_NUMBER}"
         NEXUS_IMAGE_NAME = "34.201.91.124:8085/tour-ms:tour-ms-v.1.${env.BUILD_NUMBER}"
     }
